@@ -50,6 +50,9 @@ a {
     border: 1px solid #fff; /* Este borde es temporal */
     display: flex;
     padding: 16px 208px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px
 }
 
 .title {
@@ -61,4 +64,12 @@ a {
 .description {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.img-placeholder {
+    width: 520px;
+    height: 128px;
+    background-color: #787878;
+    border: 1px solid white;
+    flex-shrink: 0;
 }

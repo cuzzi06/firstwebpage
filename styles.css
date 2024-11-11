@@ -10,3 +10,11 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+header {
+    width: 100vw;
+    display: flex;
+    color: #f9faf8;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+}

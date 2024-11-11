@@ -54,7 +54,7 @@ a {
     gap: 24px
 }
 
-.title {
+.title-hero {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
@@ -94,4 +94,11 @@ a {
     font-weight: 600;
     margin-top: 16px;
     align-self: flex-start;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

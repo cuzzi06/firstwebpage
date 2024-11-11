@@ -17,14 +17,12 @@ header {
     background-color: #1f2937;
     justify-content: space-between;
     align-items: center;
-    padding-left: 208px;
-    padding-right: 208px;
     padding: 16px 208px;
 }
 
 .links {
     display: flex;
-    margin-left: auto;
+    justify-content: space-between;
 }
 
 ul {
@@ -32,7 +30,6 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    /* justify-content: space-between; */
     gap: 24px;
     align-items: center;
 }

@@ -47,9 +47,8 @@ a {
 
 .hero {
     background-color: #1f2937;
-    border: 1px solid #fff; /* Este borde es temporal */
     display: flex;
-    padding: 132px 208px;
+    padding: 118px 208px;
     justify-content: space-between;
     align-items: center;
     gap: 24px
@@ -74,6 +73,13 @@ a {
     flex-shrink: 0;
 }
 
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    max-width: 440px;
+}
+
 .signup {
     background-color: #3882f6;
     color: #f9faf8;
@@ -83,4 +89,5 @@ a {
     font-size: 16px;
     font-weight: 600;
     margin-top: 16px;
+    align-self: flex-start;
 }

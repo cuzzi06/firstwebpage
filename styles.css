@@ -67,10 +67,13 @@ a {
 
 .img-placeholder {
     width: 520px;
-    height: 128px;
+    height: 240px;
     background-color: #787878;
-    border: 1px solid white;
     flex-shrink: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .left {
@@ -78,6 +81,7 @@ a {
     flex-direction: column;
     gap: 4px;
     max-width: 440px;
+    margin: 0;
 }
 
 .signup {

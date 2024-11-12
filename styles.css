@@ -10,6 +10,8 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* HEADER */
+
 header {
     width: 100vw;
     display: flex;
@@ -44,6 +46,8 @@ a {
     font-size: 24px;
     font-weight: 600;
 }
+
+/* HERO */
 
 .hero {
     background-color: #1f2937;
@@ -96,6 +100,8 @@ a {
     align-self: flex-start;
 }
 
+/* FOTOS */
+
 .title {
     color: #1f2937;
     font-size: 36px;
@@ -137,4 +143,12 @@ a {
 
 .content {
     padding-bottom: 124px;
+}
+
+/* QUOTE */
+
+.quote-container {
+    background-color: #e5e7eb;
+    font-size: 37px;
+    color: #1f2937;
 }

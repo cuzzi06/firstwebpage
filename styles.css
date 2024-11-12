@@ -214,3 +214,14 @@ blockquote {
     font-weight: 600;
     margin-top: 16px;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    height: 100px;
+}

@@ -151,4 +151,26 @@ a {
     background-color: #e5e7eb;
     font-size: 37px;
     color: #1f2937;
+    padding: 114px 208px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+blockquote {
+    font-weight: 300;
+    font-style: italic;
+    max-width: 850px;
+    text-align: left;
+    margin-left: 84px;
+    margin-right: 84px;
+}
+
+.autor {
+    justify-content: flex-end;
+    display: flex;
+    width: 750px;
+    font-size: 24px;
+    font-weight: 500;
 }
